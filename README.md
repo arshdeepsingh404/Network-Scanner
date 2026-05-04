@@ -25,10 +25,3 @@ Monitor network accessibility.
 Manage machine IP transitions and avoid address conflicts.
 * **How to use**: Modify local adapter settings directly through the utility. 
 * **History Tracking**: The drop-down menu stores the history of the last 10 IP addresses used and allows quick switching when moving between different machine subnets.
-
----
-
-## 🚀 Usage for Automation Engineers
-
-1.  **Device Discovery**: Set your subnet range and hit **Scan**. All reachable industrial nodes will populate the Scan Table.
-2.  **Stability Testing**: Use **Ping History** to verify link quality before putting a machine into "Run" mode.
