@@ -4,24 +4,43 @@ An Industrial Ethernet commissioning utility for Industrial Automation Programme
 ## Purpose
 This tool is designed to replace generic IT scanners with a workflow focused on industrial automation. It provides a stable, high-visibility interface for managing PLCs, HMIs, VFDs, and Remote I/O across diverse industrial subnets.
 
-## Core Engineering Features
+## Core Features
 
-### 1. Network Discovery (Scan)
-High-speed ARP/ICMP scanning to identify active hardware. 
-* **Industrial Context**: Quickly locate devices even when DNS is unavailable or hostnames are not configured.
-* **Visibility**: View MAC addresses to identify hardware vendors (e.g., Rockwell, Siemens, Phoenix Contact).
+## 1. IP Management (Change IP with History)
+Manage machine IP transitions and avoid address conflicts.
+* **How to use**: Modify local adapter settings (DHCP or Static) directly through the utility interface.
+* **History Tracking**: The app stores the last 10 configurations, allowing quick switching when moving between different machine subnets or the office network.
 
-### 2. Commissioning Documentation (Export)
-Generate instant network reports.
-* **How to use**: After completing a machine scan, use the **Export** feature to save the device list.
+## 2. Network Discovery (Scan)
+High-speed discovery of all active hardware on your local subnet.
+* **Industrial Context**: Quickly locate PLCs, HMIs, and VFDs even when DNS is unavailable or hostnames are not configured.
+* **Visibility**: View MAC addresses to identify hardware vendors like Siemens, Rockwell Automation, or Phoenix Contact.
+
+## 3. Commissioning Documentation (Export)
+Generate instant network reports for your project handovers.
+* **How to use**: After completing a machine scan, use the **Export** feature to save the device list as a CSV.
 * **Benefit**: Attach these reports to your technical documentation or use them for future maintenance reference.
 
-### 3. Connection Diagnostics (Ping with History)
-Monitor network accessibility.
-* **How to use**: Enter an IP address of a device and initiate a Ping. The drop-down menu stores the history of the last 10 IP addresses used.
-* **Industrial Context**: Essential for troubleshooting accessibility of a device.
+## 4. Connection Diagnostics (Ping with History)
+Monitor network accessibility and link stability.
+* **How to use**: Enter a device IP and initiate a Ping. The integrated drop-down menu stores a history of the last 10 IP addresses used.
+* **Industrial Context**: Essential for troubleshooting device accessibility and monitoring connection drops in electrically noisy environments.
 
-### 4. IP Management (Change IP with History)
-Manage machine IP transitions and avoid address conflicts.
-* **How to use**: Modify local adapter settings directly through the utility. 
-* **History Tracking**: The drop-down menu stores the history of the last 10 IP addresses used and allows quick switching when moving between different machine subnets.
+---
+
+## Download Instructions
+
+## 1. Obtain the Software
+Navigate to the **Releases** tab on the right side of this GitHub repository. Download the latest `.zip` archive containing the production build.
+
+## 2. Extract and Launch
+Once downloaded, **unzip the folder** to your preferred location (Desktop, USB Drive, etc.). Inside, you will find the `Network Scanner.exe` file.
+
+## 3. Portable Single-File Executable
+This application is designed as a **single-file executable**. 
+* **No Installation Required**: It runs instantly without the need for an installer or administrative setup on the OS.
+
+---
+
+## Appearance Settings
+The application includes a **Light/Dark Theme** toggle located in the top-right corner. Your theme preference is automatically saved and will persist the next time you launch the utility.
