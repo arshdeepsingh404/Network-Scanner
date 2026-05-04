@@ -4,6 +4,9 @@ An Industrial Ethernet commissioning utility for Industrial Automation Programme
 ## Purpose
 This tool is designed to replace generic IT scanners with a workflow focused on industrial automation. It provides a stable, high-visibility interface for managing PLCs, HMIs, VFDs, and Remote I/O across diverse industrial subnets.
 
+## Screenshot
+<img width="1436" height="943" alt="Network Scanner" src="https://github.com/user-attachments/assets/f70b596f-0e7f-426b-b391-8d6db9b7629c" />
+
 ## Core Features
 
 ## 1. IP Management (Change IP with History)
