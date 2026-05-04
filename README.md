@@ -34,12 +34,9 @@ Monitor network accessibility and link stability.
 ## Download Instructions
 
 ## 1. Obtain the Software
-Navigate to the **Releases** tab on the right side of this GitHub repository. Download the latest `.zip` archive containing the production build.
+Navigate to the **Releases** tab on the right side of this GitHub repository. Download the latest `.exe` containing the production build.
 
-## 2. Extract and Launch
-Once downloaded, **unzip the folder** to your preferred location (Desktop, USB Drive, etc.). Inside, you will find the `Network Scanner.exe` file.
-
-## 3. Portable Single-File Executable
+## 2. Portable Single-File Executable
 This application is designed as a **single-file executable**. 
 * **No Installation Required**: It runs instantly without the need for an installer or administrative setup on the OS.
 
